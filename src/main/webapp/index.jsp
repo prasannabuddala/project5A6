@@ -65,7 +65,7 @@
         }
     </script>
 </head>
-<body>
+<body bgcolor="pink">
 <center>
     <form name="form1">
         <table cellspacing=20px style="border:2px solid white">
