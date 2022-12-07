@@ -11,7 +11,7 @@
             font-family:'Times New Roman', Times, serif;
         }
         body{
-        background-color:pink;
+        background-color:blue;
                 }
         td{
             color: white;
