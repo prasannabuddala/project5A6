@@ -115,6 +115,10 @@
                 </select></td>
             </tr>
             <tr>
+                <td><label for="add">Address:</label></td>
+                <td><textarea id="add" cols="20" rows="3"></textarea></td>
+            </tr>
+            <tr>
                 <td><input type="reset"></td>
                 <td><input type="submit" onclick="display()"></td>
             </tr>
