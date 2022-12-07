@@ -57,10 +57,8 @@
                 document.write("HTML,");
             if(m.checked)
                 document.write("CSS");
-            document.write("<br><br>");
-            document.write("Address: "+ad);
             document.write("<br><br><br><br><br>");
-            document.write("Registration form by-20MH1A05A6");
+            document.write("Registration form ");
             
         }
     </script>
@@ -113,10 +111,6 @@
                     <option value="acet">acet</option>
                     <option value="aec">aec</option>
                 </select></td>
-            </tr>
-            <tr>
-                <td><label for="add">Address:</label></td>
-                <td><textarea id="add" cols="20" rows="3"></textarea></td>
             </tr>
             <tr>
                 <td><input type="reset"></td>
