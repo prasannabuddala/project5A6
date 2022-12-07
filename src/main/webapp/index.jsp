@@ -22,7 +22,6 @@
     <script type="text/javascript">
         function display(){
             var nam=document.getElementById("name").value;      
-            var pinno=document.getElementById("roll").value;
             var i=document.form1.gen;
             var ad=document.getElementById("add").value;
             var gmail=document.getElementById("mail").value;
@@ -34,8 +33,6 @@
             var m=document.forms[0].course3;
             document.write("<br><br>");
             document.write("Your name: "+nam);
-            document.write("<br><br>");
-            document.write("Your PIN: "+pinno);
             document.write("<br><br>")
             if(i[0].checked==true)
                 document.write("Gender:Male");
@@ -57,6 +54,8 @@
                 document.write("HTML,");
             if(m.checked)
                 document.write("CSS");
+            document.write("<br><br>");
+            document.write("Address: "+ad);
             document.write("<br><br><br><br><br>");
             document.write("Registration form ");
             
@@ -73,10 +72,6 @@
                 <td> <label for="name">Enter your name:</label></td>
                 <td><input type="text" id="name"></td>
             </tr> 
-            <tr>
-                <td><label for="roll">Enter your no:</label></td>
-                <td><input type="text" id="roll"></td>
-            </tr>
             <tr>
                 <td><label>Gender:</label></td>
                 <td><input type="radio" id="gen1" name="gen"><label for="gen1">Male</label><input type="radio" id="gen2" name="gen"><label for="gen2">Female</label></td>
@@ -111,6 +106,10 @@
                     <option value="acet">acet</option>
                     <option value="aec">aec</option>
                 </select></td>
+            </tr>
+            <tr>
+                <td><label for="add">Address:</label></td>
+                <td><textarea id="add" cols="20" rows="3"></textarea></td>
             </tr>
             <tr>
                 <td><input type="reset"></td>
