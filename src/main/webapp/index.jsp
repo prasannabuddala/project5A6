@@ -11,11 +11,8 @@
             font-family:'Times New Roman', Times, serif;
         }
         body{
-            background-image: url('prasanna.png');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
+        background-color:blue;
+                }
         td{
             color: white;
             font-size: 20px;
