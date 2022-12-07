@@ -34,7 +34,7 @@
             var m=document.forms[0].course3;
             document.write("<br><br>");
             document.write("Your name: "+nam);
-            document.write("Your name: "+num);
+            document.write("Your number: "+num);
             document.write("<br><br>")
             document.write("<br><br>")
             if(i[0].checked==true)
